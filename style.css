@@ -1,0 +1,98 @@
+
+body{
+    background-color:whitesmoke;
+}
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #101010;
+    --text-color: white;
+    --main-color: #ea580c;
+  }
+.logo{
+    font-size: 3rem;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    margin-top: 4rem;
+}
+span{
+    background: linear-gradient(
+        270deg,
+        #08b8df 10%,
+        #0a37ff 100%
+    );
+    background-clip: text;
+    color: transparent;
+}
+.life{
+    text-align: center;
+    margin-top: 5rem;
+    background-color: rgb(236, 246, 167);
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-bottom: 4rem;
+}
+.login{
+    margin-top: 2rem;
+}
+.social-icons a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: rgb(46, 46, 238);
+    transition: 0.3s ease-in-out;
+  }
+ 
+  input{
+    border: 1px solid rgb(194, 191, 191);
+    width: 70%;
+    font-size: 1rem;
+    color: black;
+    background-color: transparent;
+    padding: 0.6rem 2.5rem ;
+   
+
+  }
+  .btn-group{
+    display: flex;
+    gap: 1.5rem;
+    place-content: center;
+  }
+  .btn{
+    display: inline-block;
+    padding: 0.5rem 7rem;
+    background-color: transparent;
+    
+    font-size: 1.2rem;
+    color: black;
+    border: 1px solid black;
+    font-weight: 600;
+    text-decoration: none;
+    
+  }
+  .btn-group a:nth-of-type(1){
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+  }
+  .label{
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  
+  .signup-text a{
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+  }
+  p a{
+    text-decoration: none;
+  }
+  
